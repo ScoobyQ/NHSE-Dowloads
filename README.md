@@ -11,9 +11,10 @@ curr_period.
 
 4) User specified variables:
 
-    curr_period = Latest expected month year period for files in format MMMYY<br>
-    rev_start = Expected start month year period for revised files in format MMMYY<br>
-    rev_end = Expected end month year period for revised files in format MMMY<br>
+    curr_period = String date in format MMMYY. Latest expected month year period for files.<br>
+    revisions = Boolean True | False. 
+    rev_start = String date in format MMMYY. Expected start month year period for revised files.<br>
+    rev_end = String date in format MMMYY. Expected end month year period for revised files.<br>
     OUTPUT_FOLDER = Destination folder for file downloads. This path should end with a "\\".
 
 
