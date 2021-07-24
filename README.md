@@ -11,9 +11,9 @@ curr_period.
 
 4) User specified variables:
 
-    curr_period = Latest expected month year period for files in format MMMYY
-    rev_start = Expected start month year period for revised files in format MMMYY
-    rev_end = Expected end month year period for revised files in format MMMY
+    curr_period = Latest expected month year period for files in format MMMYY<br>
+    rev_start = Expected start month year period for revised files in format MMMYY<br>
+    rev_end = Expected end month year period for revised files in format MMMY<br>
     OUTPUT_FOLDER = Destination folder for file downloads. This path should end with a "\".
 
 
