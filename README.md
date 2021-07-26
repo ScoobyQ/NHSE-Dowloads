@@ -15,7 +15,8 @@ curr_period. Links containing `time` are filtered out.
     revisions = Boolean True | False.<br>
     rev_start = String date in format MMMYY. Expected start month year period for revised files.<br>
     rev_end = String date in format MMMYY. Expected end month year period for revised files.<br>
-    OUTPUT_FOLDER = Destination folder for file downloads. This path should end with a "\\".
+    
+5) It is expected that the user will have the following folder paths depending on OS:
 
-
-
+   Linux:   ~/Rtt
+   Windows: ~/OneDrive/Desktop/Rtt   (this can be amended to drop the /OneDrive, if not applicable, within the script.
