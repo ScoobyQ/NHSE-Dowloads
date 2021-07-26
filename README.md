@@ -18,5 +18,5 @@ curr_period. Links containing `time` are filtered out.
     
 5) It is expected that the user will have the following folder paths depending on OS:
 
-   Linux:   ~/Rtt
+   Linux:   ~/Rtt <br>
    Windows: ~/OneDrive/Desktop/Rtt   (this can be amended to drop the /OneDrive, if not applicable, within the script.
