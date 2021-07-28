@@ -6,15 +6,17 @@ import arrow
 from platform import system
 import os
 
+
+CURR_PERIOD, REV_START, REV_END = ['May21', "Apr20", "Apr20"] #User amends
+REVISIONS = True #User amends
+
+#Start urls for crawling
 PROVCOMM_LINKS = [
     'https://www.england.nhs.uk/statistics/monthly-prov-cwt',
     'https://www.england.nhs.uk/statistics/monthly-comm-cwt'
 ]
 
-REVISIONS = True
-
-CURR_PERIOD, REV_START, REV_END = ['May21', "Apr20", "Apr20"]
-BLOCK = ['timeseries', 'homepage']
+BLOCK = ['timeseries', 'homepage'] #Word based exclusions from any retrieved urls.
 
 WINDOWS = False
 
