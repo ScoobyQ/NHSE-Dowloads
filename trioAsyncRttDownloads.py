@@ -36,7 +36,7 @@ def get_os():
     if syst.startswith('L'):
         return '~/Rtt'
     elif syst.startswith('W'):
-        return '~/OneDrive/Desktop/Rtt'  # Remove /OneDrive
+        return '~/Desktop/Rtt'  # May experience issues for Windows users with OneDrive on path
     else:
         exit('Please Modify The Path Manually')
 
