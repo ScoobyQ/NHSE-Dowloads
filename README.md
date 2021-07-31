@@ -25,3 +25,7 @@ tbc
 ## trioAsyncDiagnosticsMonthlyDownloads.py
 
 tbc
+
+## trioAsyncAeDownloads.py
+
+tbc. Downloads Monthly and Quarterly files.
