@@ -28,15 +28,13 @@ def get_os() -> str:
     elif syst.startswith('W'):
         global WINDOWS
         WINDOWS = True
-        return '~/OneDrive/Desktop/Ae'  # Remove /OneDrive
+        return '~/Desktop/Ae'  # Remove /OneDrive
     else:
         exit('Please Modify The Path Manually')
 
 
 SYSP = get_os()
-FOLDER_PATH = os.path.expanduser(SYSP).replace(
-    'quent\\', 'quent/OneDrive')  # remove from uploaded
-
+FOLDER_PATH = os.path.expanduser(SYSP)
 
 def logic() -> str:
     month_list = [i.format('MMMM-YYYY') for i in list(arrow.Arrow.range(
