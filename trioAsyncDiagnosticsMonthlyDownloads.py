@@ -1,3 +1,8 @@
+  
+## Authors: 
+## 1) qharr          https://stackoverflow.com/users/6241235
+
+
 import re
 import httpx
 import trio
