@@ -125,6 +125,10 @@ async def main():
 
 
 if __name__ == "__main__":
+    
+    if not os.path.exists(FOLDER_PATH):
+        os.makedirs(FOLDER_PATH)
+        
     try:
         trio.run(main)
         if WINDOWS:
