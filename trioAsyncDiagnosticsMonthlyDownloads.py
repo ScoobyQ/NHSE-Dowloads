@@ -11,13 +11,16 @@ import arrow
 from platform import system
 import os
 
+
+REVISIONS = True # user amends
+
+CURR_PERIOD, REV_START, REV_END = ['Apr21', "Sep19", "Dec20"] # user amends
+BLOCK = ['timeseries'] # user amends
+
+
+
 PROVCOMM_LINKS = [
     'https://www.england.nhs.uk/statistics/statistical-work-areas/diagnostics-waiting-times-and-activity/monthly-diagnostics-waiting-times-and-activity/']
-
-REVISIONS = True
-
-CURR_PERIOD, REV_START, REV_END = ['Apr21', "Sep19", "Dec20"]
-BLOCK = ['timeseries']
 
 WINDOWS = False
 
