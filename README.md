@@ -16,11 +16,7 @@ curr_period. Links containing `time` are filtered out.
     rev_start = String date in format MMMYY. Expected start month year period for revised files.<br>
     rev_end = String date in format MMMYY. Expected end month year period for revised files.<br>
     
-5) It is expected that the user will have the following folder paths depending on OS:
-
-   Linux:   ~/Rtt <br>
-   Windows: ~/OneDrive/Desktop/Rtt   (this can be amended to drop the /OneDrive, if not applicable, within the script.
-   
+5) Folder Rtt will be created if not already present.
    
 ## trioAsyncCwtMonthlyDownloads.py
 
