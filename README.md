@@ -25,3 +25,7 @@ curr_period. Links containing `time` are filtered out.
 ## trioAsyncCwtMonthlyDownloads.py
 
 tbc
+
+## trioAsyncDiagnosticsMonthlyDownloads.py
+
+tbc
