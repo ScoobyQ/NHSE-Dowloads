@@ -61,7 +61,7 @@ async def get_soup(content):
 
 
 async def downloader(url):
-    async with httpx.AsyncClient(timeout=None) as client:
+    async with httpx.AsyncClient(http2=True, timeout=None) as client:
 
         curr = (arrow.get(CURR_PERIOD, "MMMYY").format("MMMM-YYYY") in url)
 
@@ -83,7 +83,7 @@ async def downloader(url):
 
 
 async def get_download_links(link, nurse):
-    async with httpx.AsyncClient(timeout=None) as client:
+    async with httpx.AsyncClient(http2=True, timeout=None) as client:
         r = await client.get(link)
         soup = await get_soup(r.text)
         match = (x['href'] for x in soup.findAll('a', href=re.compile(set_logic, re.I))
@@ -97,7 +97,7 @@ set_logic = logic()
 
 
 async def get_links(url, nurse):
-    async with httpx.AsyncClient(timeout=None) as client:
+    async with httpx.AsyncClient(http2=True, timeout=None) as client:
         r = await client.get(url)
         soup = await get_soup(r.text)
         # Currently limit restricts to last 3 financial years.
