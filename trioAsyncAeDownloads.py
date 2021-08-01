@@ -10,15 +10,17 @@ import arrow
 from platform import system
 import os
 
+
+REVISIONS = True # User amends
+
+CURR_PERIOD, REV_START, REV_END = ['Apr21', "Apr20", "Mar21"] # User amends
+
+
+BLOCK = ['timeseries']
+WINDOWS = False
+
 PROVCOMM_LINKS = [
     'https://www.england.nhs.uk/statistics/statistical-work-areas/ae-waiting-times-and-activity/']
-
-REVISIONS = True
-
-CURR_PERIOD, REV_START, REV_END = ['Apr21', "Apr20", "Mar21"]
-BLOCK = ['timeseries']
-
-WINDOWS = False
 
 
 def get_os() -> str:
