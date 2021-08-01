@@ -28,7 +28,7 @@ def get_os() -> str:
     elif syst.startswith('W'):
         global WINDOWS
         WINDOWS = True
-        return '~/Desktop/Ae'  # Remove /OneDrive
+        return '~/Desktop/Ae'  # Assume no Onedrive on path
     else:
         exit('Please Modify The Path Manually')
 
